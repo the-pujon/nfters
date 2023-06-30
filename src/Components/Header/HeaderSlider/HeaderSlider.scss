@@ -1,0 +1,36 @@
+.mySwiper {
+    width: 35rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.swiper {
+    //width: 100%;
+    padding: 1rem 1rem 0 0;
+
+}
+
+
+.swiper-slide {
+    //background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 26rem;
+    height: 30rem;
+    border-radius: 3rem !important;
+}
+
+.swiper-slide img {
+    display: block;
+    //width: 100%;
+}
